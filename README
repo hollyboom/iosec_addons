@@ -1,6 +1,6 @@
-<h1>Free Perl, Java, PHP Anti Crawling and Anti Flood Protection</h1>
+Free Perl, Java, PHP Anti Crawling and Anti Flood Protection
 
-<p>This Github will release some nice tools written in Perl, PHP and Java concerning HTTP Flood Protection, Web Crawling Enhancements, Basic HTTP and HTTPS Security all bundled in one GitHub Archive. The Tools are free to use, modify, and exchange with your friends. </p>
+This Github will release some nice tools written in Perl, PHP and Java concerning HTTP Flood Protection, Web Crawling Enhancements, Basic HTTP and HTTPS Security all bundled in one GitHub Archive. The Tools are free to use, modify, and exchange with your friends. 
 
 The following two tools are available for download from the github archive
 iosec_addons:
@@ -20,24 +20,22 @@ are being blocked.
 good luck,
 thecerial
 
-<hr><h2>IOSEC Description from Sourceforge Website:</h2>
+IOSEC Description from Sourceforge Website:
 
-<p>This module provides attack surface reduction enhancements <strong>against the HTTP Flood Attacks</strong> at the web application level. Massive crawling/scanning tools,** HTTP Flood tools can be detected and blocked** by this module via htaccess, firewall or iptables, etc. (like mod_evasive)</p>
-<p>Web: <a href="http://sourceforge.net/projects/iosec/">http://sourceforge.net/projects/iosec/</a></p>
+This module provides attack surface reduction enhancements <strong>against the HTTP Flood Attacks</strong> at the web application level. Massive crawling/scanning tools,** HTTP Flood tools can be detected and blocked** by this module via htaccess, firewall or iptables, etc. (like mod_evasive)
+Web: http://sourceforge.net/projects/iosec/
 
-<h2>Addons for HTTP Anti Flood/DoS Security:</h2>
-<p>Iosec Addons are tools to enhance the features of the original IOSEC PHP Module:
+Addons for HTTP Anti Flood/DoS Security:
+Iosec Addons are tools to enhance the features of the original IOSEC PHP Module:
 1. IOSec Crawler Whitelist Generator 
-2. IOSec Referer Blocker</p>
+2. IOSec Referer Blocker
 
-<p>Web: <a href="http://sourceforge.net/projects/iosecaddons/">http://sourceforge.net/projects/iosecaddons/</a></p>
+Web: http://sourceforge.net/projects/iosecaddons/
+Overall these Websites use the IOSEC PHP Module for enhanced Security and the IOSEC Addons:
 
-<hr><h2>Overall these Websites use the IOSEC PHP Module for enhanced Security and the IOSEC Addons:</h2>
-
-<ol>
-<li><a href="http://www.youtube-mp3.mobi/">http://www.youtube-mp3.mobi/</a></li>
-<li><a href="http://www.nookiestar.com/">http://www.nookiestar.com/</a></li>
-<li><a href="http://www.moviestreamz.com/">http://www.moviestreamz.com/</a></li>
-<li><a href="http://www.buzzerstar.com/">http://www.buzzerstar.com/</a></li>
-<li><a href="http://www.kinodownloads.com/">http://www.kinodownloads.com/</a></li>
-</ol><p>Also i am going to release some nice perl scripts for enhancing security to your webservice. Stay tuned for more php, java and Perl releases next months.</p>
+http://www.youtube-mp3.mobi/
+http://www.nookiestar.com/
+http://www.moviestreamz.com/
+http://www.buzzerstar.com/
+http://www.kinodownloads.com/
+Also i am going to release some nice perl scripts for enhancing security to your webservice. Stay tuned for more php, java and Perl releases next months.
