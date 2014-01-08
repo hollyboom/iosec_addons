@@ -1,0 +1,18 @@
+
+The following two tools are available for download from the github archive
+iosec_addons:
+1. whitelistegenerator.pl
+2. iosec.php
+
+Number 1 is a perl script that is going to parse your webserver logs for
+real bots (google,bing,msn,etc) and gathering there real ip via reverse dns
+lookup into a goodlist.txt. this goodlist then can be used by iosec.php to
+be included to allow these valid bots your full access to your page and
+blocking other fake crawlers from your site with the help of iosec.
+
+Number 2  is a patched iosec.php file that is being added a ref blocker. you
+can give a list of valid refs and the rest ref connections to your website
+are being blocked.
+
+good luck,
+thecerial
