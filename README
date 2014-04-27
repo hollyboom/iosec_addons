@@ -1,0 +1,51 @@
+Free Perl, Java, PHP Anti Crawling and HTTP Anti Flood Protection
+
+This Github will release some nice tools written in Perl, PHP and Java concerning HTTP Flood Protection, Web Crawling Enhancements, Basic HTTP and HTTPS Security all bundled in one GitHub Archive. The Tools are free to use, modify, and exchange with your friends. 
+
+The following two tools are available for download from the github archive
+iosec_addons:
+1. whitelistegenerator.pl
+2. iosec.php
+
+Number 1 is a perl script that is going to parse your webserver logs for
+real bots (google,bing,msn,etc) and gathering there real ip via reverse dns
+lookup into a goodlist.txt. this goodlist then can be used by iosec.php to
+be included to allow these valid bots your full access to your page and
+blocking other fake crawlers from your site with the help of iosec.
+
+Number 2  is a patched iosec.php file that is being added a ref blocker. you
+can give a list of valid refs and the rest ref connections to your website
+are being blocked.
+
+IOSEC Description from Sourceforge Website:
+
+Massive crawling/scanning tools,HTTP Flood tools can be detected and blocked by this module via htaccess, firewall or iptables, etc. (like mod_evasive). With these tools include .htaccess blocker, and iptables blocking chainliste to enable on your servers. IOSEC PHP Module is under normal development on Sourceforge about 2-3 times a year. 
+Web: http://sourceforge.net/projects/iosecaddons/
+Web: http://sourceforge.net/projects/zoozle/
+
+Addons for HTTP Anti Flood/DoS Security:
+Iosec Addons are tools to enhance the features of the original IOSEC PHP Module:
+1. IOSec Crawler Whitelist Generator 
+2. IOSec Referer Blocker
+These Addon tools can be used to enhance your IOSEC Module. The whitelistegenerator will parse all good and valid bots and crawler from your webservers logs to a flatfile txt database and include all their ips in it. So you can use this list to include them into IOSEC to give these valid crawler full scanning access to your website. The Wordpress Plugin is also available for IOSEC.
+
+Web: http://sourceforge.net/projects/iosecaddons/
+Web Github: http://thecerial.github.io/iosec_addons/
+Overall these Websites use the IOSEC PHP Module for enhanced Security and the IOSEC Addons:
+
+Youtube MP3 Konvter Webseite auf Deutsch mit grosser Lyrics & Songtext/Liedtext Verzeichnis und Android Musik Charts Smartphone App: http://www.youtube-mp3.mobi/
+Deutsche MP3 Umwandel Seite mit Java und PHP auf Android Basis: http://www.buzzerstar.com/
+
+Following Websites use iosec addons toolchain:
+
+http://www.youtube-mp3.mobi/
+http://www.squidoo.com/youtube-konverter
+http://www.buzzerstar.com/
+https://github.com/thecerial/iosec_addons
+http://sebastianenger.wordpress.com/
+https://sourceforge.net/projects/zoozle/
+
+Also i am going to release some nice perl scripts for enhancing security to your webservice. Stay tuned for more php, java and Perl releases next months.
+
+good luck,
+thecerial

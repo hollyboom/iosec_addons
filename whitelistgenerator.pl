@@ -2,6 +2,7 @@
 
 ####
 ## Topic: Parse Webserver Access log for offical web crawlers to allow them in iosec
+<<<<<<< HEAD
 ## Version: 1.2 / 24.4.2014
 ## Author: Sebastian Enger
 ## Check out: http://www.youtube-mp3.mobi/
@@ -12,6 +13,13 @@
 # Usage Example 2	: perl logparser2.pl /var/log/lighttpd/access.log /var/log/apache2/access.log /var/log/nginx/access.log
 ## Speed: Parsing 4 Gbyte access.log on Xeon dual core with 3,4 Ghz in 2min
 # 4/24/14: Added alexa.com bot detection
+=======
+## Version: 1.1.8 / 8.1.2014
+## Licence: GPL 3 
+# Usage Example		: perl logparser2.pl /var/log/lighttpd/access.log
+# Usage Example 2	: perl logparser2.pl /var/log/lighttpd/access.log /var/log/apache2/access.log /var/log/nginx/access.log
+## Speed: Parsing 4 Gbyte access.log on Xeon dual core with 3,4 Ghz in 2min
+>>>>>>> a4316cca3679600787bb05100c491b00379d519b
 ####
 
 use strict;
@@ -35,15 +43,21 @@ my $BingUserAgent = "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/
 my $YandexUserAgent = "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)";
 my $YahooUserAgent = "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)";
 my $BaidoUserAgent = "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)";
+<<<<<<< HEAD
 # new: 4/24/14
 my $AlexaUserAgent = 'ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)'; 
+=======
+>>>>>>> a4316cca3679600787bb05100c491b00379d519b
 
 $UA{$GoogleUserAgent} = $GoogleUserAgent;
 $UA{$BingUserAgent} = $BingUserAgent;
 $UA{$YandexUserAgent} = $YandexUserAgent;
 $UA{$YahooUserAgent} = $YahooUserAgent;
 $UA{$BaidoUserAgent} = $BaidoUserAgent;
+<<<<<<< HEAD
 $UA{$AlexaUserAgent} = $AlexaUserAgent;
+=======
+>>>>>>> a4316cca3679600787bb05100c491b00379d519b
 
 my $logfile = $#ARGV + 1 or die "No access.log Webserver logfile given\n";
 my $count = 0;
@@ -109,10 +123,15 @@ sub matchBots(){
 	my $yabot = "\.crawl\.yahoo\.com";
 	my $yanbot = "spider-$reverse_host\.yandex\.com";
 	my $bibot = "msnbot-$reverse_host\.search\.msn\.com";
+<<<<<<< HEAD
 	# new: 4/24/14
 	my $alexbot = "$reverse_host\.compute-1\.amazonaws.com";
 	
 	if ($reverse =~ /$babot/ || $reverse =~ /$alexbot/ || $reverse =~ /$gbot/ || $reverse =~ /$yabot/ || $reverse =~ /$yanbot/ || $reverse =~ /$bibot/ ) {
+=======
+	
+	if ($reverse =~ /$babot/ || $reverse =~ /$gbot/ || $reverse =~ /$yabot/ || $reverse =~ /$yanbot/ || $reverse =~ /$bibot/ ) {
+>>>>>>> a4316cca3679600787bb05100c491b00379d519b
 	#	print "(VALID): $host is offical bot\n";
 		return 1;
 	} else {
