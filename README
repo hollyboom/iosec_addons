@@ -20,8 +20,8 @@ are being blocked.
 IOSEC Description from Sourceforge Website:
 
 Massive crawling/scanning tools,HTTP Flood tools can be detected and blocked by this module via htaccess, firewall or iptables, etc. (like mod_evasive). With these tools include .htaccess blocker, and iptables blocking chainliste to enable on your servers. IOSEC PHP Module is under normal development on Sourceforge about 2-3 times a year. 
-Web: http://sourceforge.net/projects/iosecaddons/
-Web: http://sourceforge.net/projects/zoozle/
+Web: http://www.buzzerstar.com/schreiben.php
+Web: http://www.buzzerstar.com/
 Web: https://sourceforge.net/u/sebastianenger/profile/
 
 Addons for HTTP Anti Flood/DoS Security:
@@ -40,22 +40,25 @@ Deutsche MP3 Umwandel Seite mit Java und PHP auf Android Basis: http://www.buzze
 Following Websites use iosec addons toolchain:
 
 http://www.buzzerstar.com/
-http://www.squidoo.com/youtube-konverter
-https://github.com/thecerial/iosec_addons
+http://sourceforge.net/u/sebastianenger/profile/
 https://sourceforge.net/projects/mobilep2p
 https://sourceforge.net/projects/easyperlspider
 https://sourceforge.net/projects/zoozle
 https://sourceforge.net/projects/iosecaddons/
+https://code.google.com/p/youtube-mp3-converter/
 http://www.buzzerstar.com/schreiben.php
 http://www.buzzerstar.com/rss.php
 https://www.facebook.com/BuzzerStar
 https://www.twitter.com/SebastianEnger
-http://www.squidoo.com/youtube-konverter
 http://sebastianenger.wordpress.com/
 https://github.com/thecerial/iosec_addons
 http://www.pinterest.com/sebastianenger/
 https://plus.google.com/102814280381371438232
 http://www.stumbleupon.com/stumbler/sebastianenger
+https://www.google.com/+BuzzerstarUnglaublicheNeuigkeiten
+https://www.youtube.com/channel/UC9jTsYmmA3WVHIL-y4uqBkQ
+http://www.pinterest.com/sebastianenger/alle-neuigkeiten-von-wwwbuzzerstarcom/
+https://www.google.com/+BuzzerstarUnglaublicheNeuigkeiten
 
 Also i am going to release some nice perl scripts for enhancing security to your webservice. Stay tuned for more php, java and Perl releases next months.
 
