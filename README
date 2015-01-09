@@ -20,14 +20,15 @@ are being blocked.
 IOSEC Description from Sourceforge Website:
 
 Massive crawling/scanning tools,HTTP Flood tools can be detected and blocked by this module via htaccess, firewall or iptables, etc. (like mod_evasive). With these tools include .htaccess blocker, and iptables blocking chainliste to enable on your servers. IOSEC PHP Module is under normal development on Sourceforge about 2-3 times a year. 
-Web: http://www.buzzerstar.com/schreiben.php
-Web: http://www.buzzerstar.com/
+Web: https://www.buzzerstar.com/schreiben.php
+Web: https://www.buzzerstar.com/
 Web: https://sourceforge.net/u/sebastianenger/profile/
 
 Addons for HTTP Anti Flood/DoS Security:
 Iosec Addons are tools to enhance the features of the original IOSEC PHP Module:
 1. IOSec Crawler Whitelist Generator 
 2. IOSec Referer Blocker
+3. Mobile Detect Perl Libary - https://code.google.com/p/mobiledetect/ and the offical Cpan Mirror: http://search.cpan.org/~senger/
 These Addon tools can be used to enhance your IOSEC Module. The whitelistegenerator will parse all good and valid bots and crawler from your webservers logs to a flatfile txt database and include all their ips in it. So you can use this list to include them into IOSEC to give these valid crawler full scanning access to your website. The Wordpress Plugin is also available for IOSEC.
 
 Web: http://sourceforge.net/projects/iosecaddons/
@@ -35,11 +36,11 @@ Web Github: http://thecerial.github.io/iosec_addons/
 Overall these Websites use the IOSEC PHP Module for enhanced Security and the IOSEC Addons:
 
 Youtube MP3 Konvter Webseite auf Deutsch mit grosser Lyrics & Songtext/Liedtext Verzeichnis und Android Musik Charts Smartphone App: http://www.youtube-mp3.mobi/
-Deutsche MP3 Umwandel Seite mit Java und PHP auf Android Basis: http://www.buzzerstar.com/
+Deutsche MP3 Umwandel Seite mit Java und PHP auf Android Basis: https://www.buzzerstar.com/
 
 Following Websites use iosec addons toolchain:
 
-http://www.buzzerstar.com/
+https://www.buzzerstar.com/
 https://code.google.com/p/mobiledetect/
 http://sourceforge.net/u/sebastianenger/profile/
 https://sourceforge.net/projects/mobilep2p
@@ -47,15 +48,20 @@ https://sourceforge.net/projects/easyperlspider
 https://sourceforge.net/projects/zoozle
 https://sourceforge.net/projects/iosecaddons/
 https://code.google.com/p/youtube-mp3-converter/
-http://www.buzzerstar.com/schreiben.php
+https://www.buzzerstar.com/schreiben.php
 https://www.google.com/+BuzzerstarUnglaublicheNeuigkeiten
-http://www.buzzerstar.com/kategorie/Tiere
-http://www.buzzerstar.com/trending/
-http://www.buzzerstar.com/development/
-http://www.buzzerstar.com/newsticker/
-http://www.buzzerstar.com/kategorie/Entertainment
+https://www.buzzerstar.com/kategorie/Tiere
+https://www.buzzerstar.com/trending/
+https://www.buzzerstar.com/development/
+https://www.buzzerstar.com/newsticker/
+https://www.buzzerstar.com/kategorie/Entertainment
 
 Also i am going to release some nice perl scripts for enhancing security to your webservice. Stay tuned for more php, java and Perl releases next months.
 
+you can find the latest development around the BuzzerStar project on https://www.buzzerstar.com/development/ and on http://search.cpan.org/~senger/ . On cpan
+of course you will find the pure Perl Mobile detect libary. It works fine with every perl version, is easy to implement and fine to run.
+
+Feel free to contact me on buzzerstar.com
+
 good luck,
-thecerial
+Sebastian Enger
