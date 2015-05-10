@@ -20,8 +20,9 @@ are being blocked.
 IOSEC Description from Sourceforge Website:
 
 Massive crawling/scanning tools,HTTP Flood tools can be detected and blocked by this module via htaccess, firewall or iptables, etc. (like mod_evasive). With these tools include .htaccess blocker, and iptables blocking chainliste to enable on your servers. IOSEC PHP Module is under normal development on Sourceforge about 2-3 times a year. 
-Web: https://www.buzzerstar.com/schreiben.php
+Web: https://www.buzzerstar.com/post.php
 Web: https://www.buzzerstar.com/
+Web: https://www.buzzerstar.net/
 Web: https://sourceforge.net/u/sebastianenger/profile/
 
 Addons for HTTP Anti Flood/DoS Security:
@@ -41,27 +42,31 @@ Deutsche MP3 Umwandel Seite mit Java und PHP auf Android Basis: https://www.buzz
 Following Websites use iosec addons toolchain:
 
 https://www.buzzerstar.com/
-https://code.google.com/p/mobiledetect/
+https://www.buzzerstar.com/development/
 http://sourceforge.net/u/sebastianenger/profile/
 https://sourceforge.net/projects/mobilep2p
 https://sourceforge.net/projects/easyperlspider
 https://sourceforge.net/projects/zoozle
 https://sourceforge.net/projects/iosecaddons/
-https://code.google.com/p/youtube-mp3-converter/
-https://www.buzzerstar.com/schreiben.php
-https://www.google.com/+BuzzerstarUnglaublicheNeuigkeiten
+https://www.buzzerstar.net/post.php
+https://www.buzzerstar.net/games/mahjong/
 https://www.buzzerstar.com/kategorie/Tiere
-https://www.buzzerstar.com/trending/
-https://www.buzzerstar.com/development/
-https://www.buzzerstar.com/newsticker/
+https://www.buzzerstar.net/games/sudoku/
 https://www.buzzerstar.com/kategorie/Entertainment
-
+http://search.cpan.org/~senger/
+http://search.cpan.org/~qantins/
 Also i am going to release some nice perl scripts for enhancing security to your webservice. Stay tuned for more php, java and Perl releases next months.
 
 you can find the latest development around the BuzzerStar project on https://www.buzzerstar.com/development/ and on http://search.cpan.org/~senger/ . On cpan
 of course you will find the pure Perl Mobile detect libary. It works fine with every perl version, is easy to implement and fine to run.
 
-Feel free to contact me on buzzerstar.com
+Feel free to contact me on buzzerstar.com or BuzzerStar.net (in the imprint there you find my contact data)
+
+We also developed a Mobile Detect Libary for Perl (https://www.buzzerstar.com/development/) that is used by the german viral news website https://www.buzzerstar.com/
+and also by the english Buzz News Magazin (https://www.buzzerstar.net/). What does mobile detect mean?
+
+you can detect with Perl and PHP if an user that visits your webiste has mobile capabilities or not. Please check it out on Cpan
+Perl Mirrors and download & change at your will. Happy Hacking, friends!
 
 good luck,
 Sebastian Enger
